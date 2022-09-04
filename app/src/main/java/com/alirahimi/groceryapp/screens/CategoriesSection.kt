@@ -36,6 +36,7 @@ fun CategoriesSection() {
                 .fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
+
             CategoryButton(
                 text = "Fruits",
                 icon = painterResource(id = R.drawable.ic_orange),
