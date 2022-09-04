@@ -11,5 +11,7 @@ fun Content(paddingValues: PaddingValues){
         Header()
         Spacer(modifier = Modifier.height(16.dp))
         Promotions()
+        Spacer(modifier = Modifier.height(16.dp))
+        CategoriesSection()
     }
 }

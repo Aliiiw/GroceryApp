@@ -35,7 +35,7 @@ fun Promotions() {
                 title = "Meat",
                 subTitle = "Discount",
                 header = "20%",
-                imagePainter = painterResource(id = R.drawable.promotion),
+                imagePainter = painterResource(id = R.drawable.ic_meat),
                 backgroundColor = Color(0xFF6EB6F5)
             )
         }

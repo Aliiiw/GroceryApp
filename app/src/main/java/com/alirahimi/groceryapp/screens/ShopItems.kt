@@ -32,7 +32,7 @@ fun ShopItems(
     ) {
         Row {
             Column(
-                modifier = Modifier
+                Modifier
                     .padding(horizontal = 16.dp)
                     .fillMaxHeight(),
                 verticalArrangement = Arrangement.Center
@@ -57,17 +57,17 @@ fun ShopItems(
                     color = Color.White,
                     fontWeight = FontWeight.Bold
                 )
-
-                Image(
-                    painter = imagePainter,
-                    contentDescription = "",
-                    modifier = Modifier
-                        .fillMaxHeight()
-                        .weight(1f),
-                    alignment = Alignment.CenterEnd,
-                    contentScale = ContentScale.Crop
-                )
             }
+
+            Image(
+                painter = imagePainter,
+                contentDescription = "",
+                modifier = Modifier
+                    .fillMaxHeight()
+                    .weight(1f),
+                alignment = Alignment.CenterEnd,
+                contentScale = ContentScale.Crop
+            )
         }
     }
 }

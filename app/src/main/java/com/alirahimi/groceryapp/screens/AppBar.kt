@@ -28,7 +28,7 @@ fun AppBar() {
             value = "",
             onValueChange = {},
             label = {
-                Text(text = "Search food, vegetable and ...", fontSize = 16.sp)
+                Text(text = "Search food, vegetable and ...", fontSize = 14.sp)
             },
             singleLine = true,
             leadingIcon = {
