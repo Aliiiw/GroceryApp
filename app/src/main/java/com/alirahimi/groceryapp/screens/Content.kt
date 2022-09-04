@@ -13,5 +13,7 @@ fun Content(paddingValues: PaddingValues){
         Promotions()
         Spacer(modifier = Modifier.height(16.dp))
         CategoriesSection()
+        Spacer(modifier = Modifier.height(16.dp))
+        BestSellerSection()
     }
 }
