@@ -34,9 +34,5 @@ fun HomeScreen() {
             Content(paddingValues)
         }
 
-
-
     }
-
-
 }
