@@ -1,6 +1,5 @@
 package com.alirahimi.groceryapp.screens
 
-import android.preference.PreferenceActivity
 import androidx.compose.foundation.layout.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
