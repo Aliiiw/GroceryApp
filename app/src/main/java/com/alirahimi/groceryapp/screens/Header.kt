@@ -40,7 +40,8 @@ fun Header() {
                     .fillMaxHeight()
                     .weight(1f)
                     .clickable { }
-                    .padding(horizontal = 8.dp)
+                    .padding(horizontal = 8.dp),
+                verticalAlignment = Alignment.CenterVertically
             ) {
                 Icon(
                     painter = painterResource(id = R.drawable.ic_money),
@@ -60,7 +61,8 @@ fun Header() {
                     .fillMaxHeight()
                     .weight(1f)
                     .clickable { }
-                    .padding(horizontal = 8.dp)
+                    .padding(horizontal = 8.dp),
+                verticalAlignment = Alignment.CenterVertically
             ) {
                 Icon(
                     painter = painterResource(id = R.drawable.ic_coin),
